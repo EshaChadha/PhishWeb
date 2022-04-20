@@ -1,0 +1,26 @@
+{
+  "name": "PhishWeb",
+  "description": "Detects and warns about phishing attempts on gmail.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": [ ],
+
+  "background": 
+  {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": 
+  [
+    {
+      "matches": [ "*://mail.google.com/*" ],
+      "js": [ "jquery-3.6.0.min.js", "gmail.js" ],
+      "css": [ "gmail.css" ]
+    }
+  ],
+
+  "icons": 
+  {
+    "128": "phishing128.png"
+  }
+}

@@ -1,0 +1,110 @@
+﻿a.phishweb-suspicious-link,
+.phishweb-suspicious-text,
+.phishweb-suspicious-email-body-message span 
+{
+    border: 1px solid red !important;
+    padding: 5px !important;
+    background-color: white !important;
+    color: red !important;
+    display: inline-block !important;
+    margin: 5px !important;
+}
+
+a.phishweb-link,
+.phishweb-email-body-message span 
+{
+    border: 1px dashed green !important;
+    padding: 5px !important;
+    display: inline-block !important;
+    margin: 5px !important;
+}
+
+.phishweb-suspicious-email-body-message span,
+.phishweb-email-body-message span 
+{
+    margin-bottom: 15px !important;
+}
+
+
+.phishweb-suspicious-email-body 
+{
+    border: 2px solid red !important;
+    padding: 5px !important;
+}
+
+.phishweb-email-body 
+{
+    border: 2px solid green !important;
+    padding: 5px !important;
+}
+
+.phishweb-suspicious-email-body-message,
+.phishweb-email-body-message 
+{
+    width: 100%;
+    text-align: center;
+}
+
+.phishweb-suspicious-email-body-message span,
+.phishweb-email-body-message span 
+{
+    text-decoration: none !important;
+}
+
+.phishweb-email-body-message span 
+{
+    color: green;
+}
+
+
+.phishweb-reminder-sender-address 
+{
+    display: block !important;
+    color: #800000 !important;
+    padding-bottom: 3px !important;
+    white-space: normal !important;
+}
+
+.phishweb-reminder-sender-address-suspicious,
+.phishweb-reminder-attachments 
+{
+    display: block !important;
+    color: red !important;
+    padding-bottom: 3px !important;
+    white-space: normal !important;
+}
+
+.phishweb-suspicious-attachment 
+{
+    border: 2px solid red !important;
+    padding: 5px !important;
+}
+
+
+.phishweb-onoffcontainer
+ {
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.phishweb-turnoff 
+{
+    color: red;
+    cursor: pointer;
+}
+
+.phishweb-turnon 
+{
+    color: green;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.phishweb-links-on-warning 
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
